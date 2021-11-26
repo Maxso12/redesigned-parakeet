@@ -1,0 +1,226 @@
+body{
+  background-color: lightgray;
+  overflow-x: hidden;
+}
+button:hover{
+  cursor: pointer;
+}
+nav{
+  width: 100%;padding-bottom: 50px;
+}
+nav ul li a {
+  color: black;text-decoration: none;
+}
+.top-heading{
+  font-family: 'Montserrat', sans-serif;font-size: 45px;
+}
+.top-heading span{
+  color: #38aae3;
+}
+.uni-image{
+  height: 300px; 
+  width: 100%;
+  object-fit: cover !important;
+}
+.tabs input[type=radio] {
+          position: absolute;
+          opacity:0;
+      }
+      .tabs {
+        width: 431px;
+        margin: auto;
+        float: none;
+        list-style: none;
+        position: relative;
+        padding: 0;
+       
+      }
+      @media (max-width: 440px){
+        .tabs{
+          width: 300px !important;
+          margin: auto !important;
+          padding: revert !important;
+        }
+         .tabs label {
+padding: 10px 10px !important;
+font-size: 12px !important;
+         }
+      }
+         @media (max-width: 715px){
+.top-heading{
+  margin-top: 110px !important;
+}
+      }
+        @media (max-width: 377px){
+.top-heading{
+  margin-top: 170px !important;
+}
+      }
+ 
+    .background-image{
+      margin-top: 70px;
+     
+    }
+    .background-image img{
+       width: 100%;height: 500px;object-fit: cover;
+    }
+      .tabs li{
+        float: left;
+      }
+      .tabs label {
+          display: block;
+          padding: 10px 20px;
+          border-radius: 2px 2px 0 0;
+          color: #000;
+          font-size: 24px;
+          font-weight: normal;
+          background: rgba(120,120,120,0.2);
+          cursor: pointer;
+          position: relative;
+          top: 3px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+      }
+      .tabs label:hover {
+        background: rgba(255,255,255,0.5);
+        top: 0;
+      }
+       
+      .tabs input[id^=tab]:checked + label {
+        background: red;
+        color: #fff;
+        top: 0;
+      }
+
+.tabs2 input[id^=tab]:checked + label {
+        background: green;
+        color: #fff;
+        top: 0;
+      }
+       
+      .tabs [id^=tab]:checked ~ [id^=tab-content] {
+          display: block;
+      }
+      
+      .tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+        line-height: 140%;
+        padding-top: 10px;
+        background: red;
+        padding: 15px;
+        color: #fff;
+        position: absolute;
+        top: 53px;
+        left: 0;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+      }
+
+
+      /* Layout: */
+
+.col-main {
+  flex: 1;  
+}  
+
+.col-complementary {
+  flex: 1;  
+}
+
+/* Responsive: */
+
+@media only screen and (min-width: 840px) {
+  .layout {
+    display: flex;
+  }
+}
+
+/* etc */
+
+body {
+  margin: 1.5em;
+}
+ul li {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding-top: 10px;
+}
+.hidden {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+h1{
+   font-family: 'Montserrat', sans-serif;
+}
+h2{
+   font-family: 'Montserrat', sans-serif;
+}
+.container {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+button{
+  background-color: #29abe2;padding: 12px 25px;border-radius: 20px;border-style: none;
+}
+.col img{
+  border-radius: 10px;width: 100%;
+}
+.col {
+  padding: 1em;
+  margin: 0 2px 2px 0;
+ 
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size:22px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+form input{
+width: 100% !important;
+font-size: 15px;
+padding: 10px 0px;
+width: 100% !important;
+border-radius: 7px;
+}
+footer{
+   background-color: #29abe2;
+   text-align: center;
+   padding: 10px 0px;
+
+}
+footer a {
+  font-size: 18px;
+}
+footer h2{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.col{
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px 10px;
+}
+.submit{
+  width: 100%;
+  border-radius: 12px;
+  background-color: #29abe2;
+  padding: 10px 0px;
+  color: white;
+  font-size: 20px;
+}
