@@ -1,5 +1,5 @@
 body{
-  background-color: lightgray;
+background-color: #e1eedd;
   overflow-x: hidden;
 }
 button:hover{
@@ -57,7 +57,7 @@ font-size: 12px !important;
      
     }
     .background-image img{
-       width: 100%;height: 500px;object-fit: cover;
+       width: 100%;height: 700px;object-fit: cover;
     }
       .tabs li{
         float: left;
@@ -69,7 +69,7 @@ font-size: 12px !important;
           color: #000;
           font-size: 24px;
           font-weight: normal;
-          background: rgba(120,120,120,0.2);
+          background: #f6c453;
           cursor: pointer;
           position: relative;
           top: 3px;
@@ -84,7 +84,7 @@ font-size: 12px !important;
       }
        
       .tabs input[id^=tab]:checked + label {
-        background: red;
+          background: #f0a04b;
         color: #fff;
         top: 0;
       }
@@ -170,7 +170,7 @@ h3{
   margin-top: 70px;
 }
 button{
-  background-color: #29abe2;padding: 12px 25px;border-radius: 20px;border-style: none;
+  background-color: #f0a04b;padding: 12px 25px;border-radius: 20px;border-style: none;
 }
 .col img{
   border-radius: 10px;width: 100%;
@@ -197,7 +197,7 @@ width: 100% !important;
 border-radius: 7px;
 }
 footer{
-   background-color: #29abe2;
+   background-color: #f0a04b;
    text-align: center;
    padding: 10px 0px;
 
@@ -210,7 +210,7 @@ footer h2{
   color: white;
 }
 .col{
-  background-color: white;
+   background-color:#fefbe9;
   border-radius: 20px;
   margin: 20px 10px;
 }
@@ -218,7 +218,7 @@ footer h2{
 .submit{
   width: 100%;
   border-radius: 12px;
-  background-color: #29abe2;
+  background-color: #f0a04b;
   padding: 10px 0px;
   color: white;
   font-size: 20px;
